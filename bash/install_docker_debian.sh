@@ -1,4 +1,5 @@
 #!/bin/bash
+apt purge -y docker docker-engine docker.io containerd runc
 apt-get update -y
 apt-get install -y \
     ca-certificates \
